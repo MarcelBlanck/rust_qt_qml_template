@@ -1,0 +1,16 @@
+[package]
+name = "rust_qt_qml_template"
+version = "0.1.0"
+authors = ["Marcel Blanck <mail@marcel-blanck.de>"]
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+cpp = "0.5.7"
+qmetaobject = { version = "0.2.7"}
+
+[build-dependencies]
+cpp_build = "0.5.7"
+
+[[bin]]
+name = "rust_qt_qml_template"
