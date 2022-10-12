@@ -18,7 +18,7 @@ For me Rust with a Qt/QML GUI is the best basis for any project that should comb
 - [ ] Make Windows builds more convenient (no hardcoded paths)
 - [ ] Make Project suitable as a GitHub Template repository
 - [ ] Support Linux
-- [ ] Support MacOS
+- [X] Support MacOS
 - [ ] Support Andoid
 - [ ] Support iOS
 - [ ] Support Web Assembly
@@ -29,5 +29,12 @@ For me Rust with a Qt/QML GUI is the best basis for any project that should comb
 
 1. Install the latest stable Rust from: <https://rustup.rs/> (make sure you have C++ build tools installed)
 2. Install Qt 6 prebuild for the same msvc version via <https://www.qt.io/download-qt-installer>
-3. Make sure the varibales ```qt_lib_path``` and ```qt_include_path``` in the ```build.rs``` file are correct
+3. Make sure the varibales ```WIN_QT_LIB_PATH``` and ```WIN_QT_INCLUDE_PATH``` in the ```build.rs``` file are correct
+4. Execute ```cargo run```
+
+### MacOS
+
+1. Install the latest stable Rust from: <https://rustup.rs/>
+2. Install Qt 6 prebuild via <https://www.qt.io/download-qt-installer>
+3. Make sure the varibale ```MACOS_QT_LIB_PATH``` in the ```build.rs``` file is correct
 4. Execute ```cargo run```

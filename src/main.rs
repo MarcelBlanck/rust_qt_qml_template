@@ -3,7 +3,7 @@ use qmetaobject::*;
 use std::env;
 
 cpp! {{
-    #include <QtQml/QQmlEngine>
+    #include <QQmlEngine>
 }}
 
 fn main() {
